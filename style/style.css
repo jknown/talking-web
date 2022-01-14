@@ -27,13 +27,12 @@ body {
 
 .welcome-header__text {
   color: gray;
-  width: 50%;
   text-align: center;
 }
 
 .login-form {
   display: flex;
-  margin: 15px;
+  margin: 20px;
   flex-direction: column;
 }
 .login-form__input {
@@ -42,16 +41,25 @@ body {
   border-left: none;
   border-bottom: 1px gray solid;
   height: 50px;
-  font-size: 15px;
+  font-size: 17px;
 }
 .login-form__href {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 10px;
+  margin: 20px;
+  font-size: 15px;
 }
-.login-form__button {
-  margin-top: 10px;
+.login-form__button__lg {
+  margin-top: 20px;
   height: 50px;
   border: none;
+  background-color: yellow;
+  font-size: 17px;
+}
+.login-form__button__sg {
+  margin-top: 5px;
+  height: 50px;
+  border: none;
+  font-size: 17px;
 }
