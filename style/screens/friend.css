@@ -1,0 +1,52 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #f0eee9;
+  padding: 20px 50px;
+  border-top: 1px solid rgba(121, 121, 121, 0.3);
+}
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  color: inherit;
+}
+
+.friend-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.friend-header__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.friend-icons__list span {
+  margin-left: 25px;
+}
+
+.friend-main__column {
+  display: flex;
+  align-items: center;
+}
+
+.friend-main__column-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 30px;
+  margin-left: 20px;
+}
+
+.friend-main__column-name {
+  margin-bottom: 22px;
+  margin-left: 15px;
+  font-size: 20px;
+}
