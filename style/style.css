@@ -6,6 +6,7 @@
 /* Screens */
 @import "screens/login.css";
 @import "screens/friend.css";
+@import "screens/chat.css";
 body {
   font-family: "Noto Sans KR", sans-serif;
 }
