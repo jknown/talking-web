@@ -8,40 +8,48 @@
     <link rel="stylesheet" href="style/style.css" />
   </head>
   <body>
-    <!-- 1.top header-->
-    <div class="status-bar">
-      <!-- 1-1.Service-->
-      <div class="status-bar__column">
-        <span>Service</span>
-        <i class="fas fa-wifi"></i>
+    <div class="headboxhelper">
+      <!-- 1.top header-->
+      <div class="status-bar">
+        <!-- 1-1.Service-->
+        <div class="status-bar__column">
+          <span>Service</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <!-- 1-2.Time-->
+        <div class="status-bar__column">
+          <span>18:43</span>
+        </div>
+        <!-- 1-3.Battery-->
+        <div class="status-bar__column">
+          <span>100%</span>
+          <i class="fas fa-battery-full"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
       </div>
-      <!-- 1-2.Time-->
-      <div class="status-bar__column">
-        <span>18:43</span>
-      </div>
-      <!-- 1-3.Battery-->
-      <div class="status-bar__column">
-        <span>100%</span>
-        <i class="fas fa-battery-full"></i>
-        <i class="fas fa-bolt"></i>
-      </div>
+      <header class="friend-header">
+        <h1 class="friend-header__title">친구</h1>
+        <div class="friend-icons__list">
+          <span class="friend-icon__icons"><i class="fas fa-search"></i></span>
+          <span class="friend-icon__icons"
+            ><i class="fas fa-user-plus"></i
+          ></span>
+          <span class="friend-icon__icons"><i class="fas fa-cog"></i></span>
+        </div>
+      </header>
     </div>
-    <header class="friend-header">
-      <h1 class="friend-header__title">친구</h1>
-      <div class="friend-icons__list">
-        <span class="friend-icon__icons"><i class="fas fa-search"></i></span>
-        <span class="friend-icon__icons"><i class="fas fa-user-plus"></i></span>
-        <span class="friend-icon__icons"><i class="fas fa-cog"></i></span>
-      </div>
-    </header>
+    <div class="blank"></div>
     <div class="friend-main-profile">
       <div class="friend-main-profile-obj">
         <div class="friend-main-profile-obj-imgbox">
-          <img class="friend-main-profile-obj-img" src="프로필.jpg" />
+          <img
+            class="friend-main-profile-obj-img"
+            src="https://s3.ap-northeast-2.amazonaws.com/elasticbeanstalk-ap-northeast-2-176213403491/media/magazine_img/magazine_262/%EC%8D%B8%EB%84%A4%EC%9D%BC.jpg"
+          />
         </div>
         <div class="friend-main-profile-obj-texts">
           <div class="friend-main-profile-obj-namebox">
-            <p class="friend-main-profile-obj-name">이지영</p>
+            <p class="friend-main-profile-obj-name">이찬형</p>
           </div>
           <div class="friend-main-profile-obj-stylebox">
             <p class="friend-main-profile-obj-style">상메</p>
@@ -58,24 +66,177 @@
           </p>
         </div>
         <div class="friend-main-birthday-main">
-          <img class="friend-main-brithday-img" src="케이크.jpg" />
-          <p class="friend-main-brithday-sdm">친구의 생일을 확인해보세요!</p>
+          <div class="friend-main-birthday-box">
+            <img
+              class="friend-main-brithday-img"
+              src="https://image.freepik.com/free-vector/birthday-cake-illustration_190703-2.jpg"
+            />
+            <p class="friend-main-brithday-sdm">친구의 생일을 확인해보세요!</p>
+          </div>
+          <div class="friend-main-birthday-btw"><p>3 ></p></div>
         </div>
       </div>
     </div>
-    <div class="friend-main-birthday">
+    <div class="friend-main-birthday-friends">
       <div class="friend-main-birthday-title">
         <div class="friend-main-birthday-title-text-btw">
-          <p class="friend-main-birthday-title-text">친구 1</p>
+          <p class="friend-main-birthday-title-text">친구 9</p>
           <p class="friend-main-birthday-title-text">
             <i class="fas fa-chevron-up"></i>
           </p>
         </div>
         <div class="friend-main-birthday-main">
-          <img class="friend-main-brithday-img" src="프로필.jpg" />
-          <div class="column-tool">
-            <p class="friend-main-brithday-sdm">윤준혁</p>
-            <p class="friend-main-style">고양이</p>
+          <div class="friend-main-birthday-box">
+            <img
+              class="friend-main-brithday-img"
+              src="https://ww.namu.la/s/50ec79e07868dd8be7c62f3ca97267517b4f7b8d43b05470c645b336541fdd3593e3a3469a82a8c904f050382ff3c8551606ac7de623941d726582f74a03670a7f0972e3a8439ec9911ee60a1a5c76e1856d5e55e53a42f365f1c95a145ef612"
+            />
+            <div class="column-tool">
+              <p class="friend-main-brithday-sdm">김이안</p>
+              <p class="friend-main-style">고양이</p>
+            </div>
+          </div>
+          <div>
+            <p class="friend-main-select-song">
+              밝게 빛나는 별이 되어 비쳐줄...<i class="fas fa-play"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="friend-main-birthday-friends">
+      <div class="friend-main-birthday-title">
+        <div class="friend-main-birthday-title-text-btw"></div>
+        <div class="friend-main-birthday-main">
+          <div class="friend-main-birthday-box">
+            <img
+              class="friend-main-brithday-img"
+              src="https://t1.daumcdn.net/cfile/tistory/996F7A405E092CA016"
+            />
+            <div class="column-tool">
+              <p class="friend-main-brithday-sdm">윤기용</p>
+              <p class="friend-main-style">가렌</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="friend-main-birthday-friends">
+      <div class="friend-main-birthday-title">
+        <div class="friend-main-birthday-title-text-btw"></div>
+        <div class="friend-main-birthday-main">
+          <div class="friend-main-birthday-box">
+            <img
+              class="friend-main-brithday-img"
+              src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAPCg4NDQ0PDQ8NDgoPDg4QDQ8NDg0SFREWFhURExMYHSggGBslGxMTITEhJSkrLi4uIx8zODMtNygtLisBCgoKDg0OGBAPFyseHR83LSstNy4rKy0rLS0tNy0rLS0tLSs3LSsrLy0tKy0tNys3Ky0tLSsrKys3KysrNystK//AABEIAOAA4QMBIgACEQEDEQH/xAAaAAEAAgMBAAAAAAAAAAAAAAAAAQUCAwQG/8QAMRABAAIAAwUFBwQDAAAAAAAAAAECAwQRBRIhMUEyUVJhcSJygZGhscEzQpLRFCPh/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAEDAgQF/8QAHhEBAQEBAAMAAwEAAAAAAAAAAAECEQMxQRIhURP/2gAMAwEAAhEDEQA/APWIEvovmoEoFEgIAAAAAAAAAAAAAAgSgAAASgAABIAhIAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAVKAAShIAAgAAAAAAAAAAACABQAAAAABKAQAFAAEoSAAIAAAADKmHNp0rEz6Rq31yGJP7Yj1mE7Fktcw6p2fid0T8WjEwbV7VZj4cPmdhysAFQABAAoAAAAAAAIACgACUJAAEAAIjoscrs/rifx/tns7K6Rv2jjPLyh2stb+RrnH2orWIjSIiI7oSDNqEgDjzOQrbjT2Z7v2z/SrvWazMTGkx0egc2dy2/XWO1HLz8mmd/wBZ6x9inAaskAAAAAAAAACAAoAAlCQABBuyeFv4sR05z6Q0rDZNeN7e7DnV5HWZ2rEBg9AAAAAACo2lhbuLrHK3H49XKtNq1/1xPdb7qtvi9jDU5UAOnIAAAAAAAAAAAAlCQABBZ7J7F/ej7Kx3bKvpe1fFETHwc79O8e1mAwbgAAAAAOXaf6M+tVQstrX9mte+ZlWtsemG/aAHbkAAAAAAAEABQABKEgACDLCxJreLR0liCr/DvFqxaOUwyU+SzW5Ok8azz8vNb1tExrE6xPVhrPG+ddSA5dAABM6RrPKBV5/Ob3sU7PWfF/xZOuda4581jb+JNunKPRqBuwQAoAAAAAAACAAoAAlCQABAABtwMxak+zPDrE8pahFWuFtGs9qJrPzh0VzFJ5Xr84USHNxHc8lX841Y53r/AChoxc/SOU70+X9qdKf5wvkrfmM3a/Ds17o/LQDuTji3oAqIAFAAAAAAABAAUAAShIAAgN2Xy1sSeHCOtp5LPAydKdN6e+XN1I7mbVZhZS9uVdI754Q68PZniv8AKFgM7utJ445a7Pw46TPrLOMnh+CPq3jntdfjGn/Ew/BH1YWyGHPSY9Jl0h2n4xX4mzI/bf5xq5cXJ3rzrrHfHFdDqbrm4jzwusfKUvzjSfFHCVZmcranPjXxR+Wk1KzuLHOA6cgAAAAAAAgAKAAJQkB15LJ7/tW4V7utmORy2/bWezXn5+S4iO5nvXP1HeM9/dKxERpEaRHQBk2AAAAAAAACY1jSQBV57I7ut6cusdzhejVG0MruTvV7M9PDLXOvlZaz9jjAaMwAAAAAQAFAAGVKTa0VjnM6MVhsrC1tN56cI9Ut5Fk7Xfg4cUpFY6fXzZg870AAAAAAAAAAAAJY4lItWazymNJZAjz+PhTS81np9YYLPa2F7MXjpwn0VjfN7GGpygDpAAAAQAkUAAXeRpu4NfPjPxUkQ9FWNIiO6Ihn5GnjgAyagAAAAAAAAAAAJAEYY9N7DtXviXn3o3n8xXTEtHda33aeOs9sAGrMAAAEABQAGWF26+9X7vQvPYXbr71fu9Cy8jXxoAZtAAAAAAAAAAAAEgCCizv61/X8L1R579e/r+Gnj9uN+mgBqyAAABH/2Q=="
+            />
+            <div class="column-tool">
+              <p class="friend-main-brithday-sdm">윤준혁</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="friend-main-birthday-friends">
+      <div class="friend-main-birthday-title">
+        <div class="friend-main-birthday-title-text-btw"></div>
+        <div class="friend-main-birthday-main">
+          <div class="friend-main-birthday-box">
+            <img
+              class="friend-main-brithday-img"
+              src="https://cdn.crowdpic.net/list-thumb/thumb_l_64EB7EDBE7BF66CE4E2B22733C509821.jpg"
+            />
+            <div class="column-tool">
+              <p class="friend-main-brithday-sdm">이준영</p>
+              <p class="friend-main-style">이불밖은 위험해</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="friend-main-birthday-friends">
+      <div class="friend-main-birthday-title">
+        <div class="friend-main-birthday-title-text-btw"></div>
+        <div class="friend-main-birthday-main">
+          <div class="friend-main-birthday-box">
+            <img
+              class="friend-main-brithday-img"
+              src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAPCg4NDQ0PDQ8NDgoPDg4QDQ8NDg0SFREWFhURExMYHSggGBslGxMTITEhJSkrLi4uIx8zODMtNygtLisBCgoKDg0OGBAPFyseHR83LSstNy4rKy0rLS0tNy0rLS0tLSs3LSsrLy0tKy0tNys3Ky0tLSsrKys3KysrNystK//AABEIAOAA4QMBIgACEQEDEQH/xAAaAAEAAgMBAAAAAAAAAAAAAAAAAQUCAwQG/8QAMRABAAIAAwUFBwQDAAAAAAAAAAECAwQRBRIhMUEyUVJhcSJygZGhscEzQpLRFCPh/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAEDAgQF/8QAHhEBAQEBAAMAAwEAAAAAAAAAAAECEQMxQRIhURP/2gAMAwEAAhEDEQA/APWIEvovmoEoFEgIAAAAAAAAAAAAAAgSgAAASgAABIAhIAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAVKAAShIAAgAAAAAAAAAAACABQAAAAABKAQAFAAEoSAAIAAAADKmHNp0rEz6Rq31yGJP7Yj1mE7Fktcw6p2fid0T8WjEwbV7VZj4cPmdhysAFQABAAoAAAAAAAIACgACUJAAEAAIjoscrs/rifx/tns7K6Rv2jjPLyh2stb+RrnH2orWIjSIiI7oSDNqEgDjzOQrbjT2Z7v2z/SrvWazMTGkx0egc2dy2/XWO1HLz8mmd/wBZ6x9inAaskAAAAAAAAACAAoAAlCQABBuyeFv4sR05z6Q0rDZNeN7e7DnV5HWZ2rEBg9AAAAAACo2lhbuLrHK3H49XKtNq1/1xPdb7qtvi9jDU5UAOnIAAAAAAAAAAAAlCQABBZ7J7F/ej7Kx3bKvpe1fFETHwc79O8e1mAwbgAAAAAOXaf6M+tVQstrX9mte+ZlWtsemG/aAHbkAAAAAAAEABQABKEgACDLCxJreLR0liCr/DvFqxaOUwyU+SzW5Ok8azz8vNb1tExrE6xPVhrPG+ddSA5dAABM6RrPKBV5/Ob3sU7PWfF/xZOuda4581jb+JNunKPRqBuwQAoAAAAAAACAAoAAlCQABAABtwMxak+zPDrE8pahFWuFtGs9qJrPzh0VzFJ5Xr84USHNxHc8lX841Y53r/AChoxc/SOU70+X9qdKf5wvkrfmM3a/Ds17o/LQDuTji3oAqIAFAAAAAAABAAUAAShIAAgN2Xy1sSeHCOtp5LPAydKdN6e+XN1I7mbVZhZS9uVdI754Q68PZniv8AKFgM7utJ445a7Pw46TPrLOMnh+CPq3jntdfjGn/Ew/BH1YWyGHPSY9Jl0h2n4xX4mzI/bf5xq5cXJ3rzrrHfHFdDqbrm4jzwusfKUvzjSfFHCVZmcranPjXxR+Wk1KzuLHOA6cgAAAAAAAgAKAAJQkB15LJ7/tW4V7utmORy2/bWezXn5+S4iO5nvXP1HeM9/dKxERpEaRHQBk2AAAAAAAACY1jSQBV57I7ut6cusdzhejVG0MruTvV7M9PDLXOvlZaz9jjAaMwAAAAAQAFAAGVKTa0VjnM6MVhsrC1tN56cI9Ut5Fk7Xfg4cUpFY6fXzZg870AAAAAAAAAAAAJY4lItWazymNJZAjz+PhTS81np9YYLPa2F7MXjpwn0VjfN7GGpygDpAAAAQAkUAAXeRpu4NfPjPxUkQ9FWNIiO6Ihn5GnjgAyagAAAAAAAAAAAJAEYY9N7DtXviXn3o3n8xXTEtHda33aeOs9sAGrMAAAEABQAGWF26+9X7vQvPYXbr71fu9Cy8jXxoAZtAAAAAAAAAAAAEgCCizv61/X8L1R579e/r+Gnj9uN+mgBqyAAABH/2Q=="
+            />
+            <div class="column-tool">
+              <p class="friend-main-brithday-sdm">이지민</p>
+              <p class="friend-main-style">집가고 싶다</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="friend-main-birthday-friends">
+      <div class="friend-main-birthday-title">
+        <div class="friend-main-birthday-title-text-btw"></div>
+        <div class="friend-main-birthday-main">
+          <div class="friend-main-birthday-box">
+            <img
+              class="friend-main-brithday-img"
+              src="https://newsimg.sedaily.com/2019/05/22/1VJ8PU7XCR_5.jpg"
+            />
+            <div class="column-tool">
+              <p class="friend-main-brithday-sdm">장석주</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="friend-main-birthday-friends">
+      <div class="friend-main-birthday-title">
+        <div class="friend-main-birthday-title-text-btw"></div>
+        <div class="friend-main-birthday-main">
+          <div class="friend-main-birthday-box">
+            <img
+              class="friend-main-brithday-img"
+              src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAPCg4NDQ0PDQ8NDgoPDg4QDQ8NDg0SFREWFhURExMYHSggGBslGxMTITEhJSkrLi4uIx8zODMtNygtLisBCgoKDg0OGBAPFyseHR83LSstNy4rKy0rLS0tNy0rLS0tLSs3LSsrLy0tKy0tNys3Ky0tLSsrKys3KysrNystK//AABEIAOAA4QMBIgACEQEDEQH/xAAaAAEAAgMBAAAAAAAAAAAAAAAAAQUCAwQG/8QAMRABAAIAAwUFBwQDAAAAAAAAAAECAwQRBRIhMUEyUVJhcSJygZGhscEzQpLRFCPh/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAEDAgQF/8QAHhEBAQEBAAMAAwEAAAAAAAAAAAECEQMxQRIhURP/2gAMAwEAAhEDEQA/APWIEvovmoEoFEgIAAAAAAAAAAAAAAgSgAAASgAABIAhIAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAVKAAShIAAgAAAAAAAAAAACABQAAAAABKAQAFAAEoSAAIAAAADKmHNp0rEz6Rq31yGJP7Yj1mE7Fktcw6p2fid0T8WjEwbV7VZj4cPmdhysAFQABAAoAAAAAAAIACgACUJAAEAAIjoscrs/rifx/tns7K6Rv2jjPLyh2stb+RrnH2orWIjSIiI7oSDNqEgDjzOQrbjT2Z7v2z/SrvWazMTGkx0egc2dy2/XWO1HLz8mmd/wBZ6x9inAaskAAAAAAAAACAAoAAlCQABBuyeFv4sR05z6Q0rDZNeN7e7DnV5HWZ2rEBg9AAAAAACo2lhbuLrHK3H49XKtNq1/1xPdb7qtvi9jDU5UAOnIAAAAAAAAAAAAlCQABBZ7J7F/ej7Kx3bKvpe1fFETHwc79O8e1mAwbgAAAAAOXaf6M+tVQstrX9mte+ZlWtsemG/aAHbkAAAAAAAEABQABKEgACDLCxJreLR0liCr/DvFqxaOUwyU+SzW5Ok8azz8vNb1tExrE6xPVhrPG+ddSA5dAABM6RrPKBV5/Ob3sU7PWfF/xZOuda4581jb+JNunKPRqBuwQAoAAAAAAACAAoAAlCQABAABtwMxak+zPDrE8pahFWuFtGs9qJrPzh0VzFJ5Xr84USHNxHc8lX841Y53r/AChoxc/SOU70+X9qdKf5wvkrfmM3a/Ds17o/LQDuTji3oAqIAFAAAAAAABAAUAAShIAAgN2Xy1sSeHCOtp5LPAydKdN6e+XN1I7mbVZhZS9uVdI754Q68PZniv8AKFgM7utJ445a7Pw46TPrLOMnh+CPq3jntdfjGn/Ew/BH1YWyGHPSY9Jl0h2n4xX4mzI/bf5xq5cXJ3rzrrHfHFdDqbrm4jzwusfKUvzjSfFHCVZmcranPjXxR+Wk1KzuLHOA6cgAAAAAAAgAKAAJQkB15LJ7/tW4V7utmORy2/bWezXn5+S4iO5nvXP1HeM9/dKxERpEaRHQBk2AAAAAAAACY1jSQBV57I7ut6cusdzhejVG0MruTvV7M9PDLXOvlZaz9jjAaMwAAAAAQAFAAGVKTa0VjnM6MVhsrC1tN56cI9Ut5Fk7Xfg4cUpFY6fXzZg870AAAAAAAAAAAAJY4lItWazymNJZAjz+PhTS81np9YYLPa2F7MXjpwn0VjfN7GGpygDpAAAAQAkUAAXeRpu4NfPjPxUkQ9FWNIiO6Ihn5GnjgAyagAAAAAAAAAAAJAEYY9N7DtXviXn3o3n8xXTEtHda33aeOs9sAGrMAAAEABQAGWF26+9X7vQvPYXbr71fu9Cy8jXxoAZtAAAAAAAAAAAAEgCCizv61/X8L1R579e/r+Gnj9uN+mgBqyAAABH/2Q=="
+            />
+            <div class="column-tool">
+              <p class="friend-main-brithday-sdm">차문수</p>
+              <p class="friend-main-style">^^</p>
+            </div>
+          </div>
+          <div>
+            <p class="friend-main-select-song">
+              Counting Stars(Feat.Bee...<i class="fas fa-play"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="friend-main-birthday-friends">
+      <div class="friend-main-birthday-title">
+        <div class="friend-main-birthday-title-text-btw"></div>
+        <div class="friend-main-birthday-main">
+          <div class="friend-main-birthday-box">
+            <img
+              class="friend-main-brithday-img"
+              src="https://cdn.mindgil.com/news/photo/202104/71169_7768_150.jpg"
+            />
+            <div class="column-tool">
+              <p class="friend-main-brithday-sdm">최준혁</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="friend-main-birthday">
+      <div class="friend-main-birthday-title">
+        <div class="friend-main-birthday-title-text-btw"></div>
+        <div class="friend-main-birthday-main">
+          <div class="friend-main-birthday-box">
+            <img
+              class="friend-main-brithday-img"
+              src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAPCg4NDQ0PDQ8NDgoPDg4QDQ8NDg0SFREWFhURExMYHSggGBslGxMTITEhJSkrLi4uIx8zODMtNygtLisBCgoKDg0OGBAPFyseHR83LSstNy4rKy0rLS0tNy0rLS0tLSs3LSsrLy0tKy0tNys3Ky0tLSsrKys3KysrNystK//AABEIAOAA4QMBIgACEQEDEQH/xAAaAAEAAgMBAAAAAAAAAAAAAAAAAQUCAwQG/8QAMRABAAIAAwUFBwQDAAAAAAAAAAECAwQRBRIhMUEyUVJhcSJygZGhscEzQpLRFCPh/8QAGQEBAQEBAQEAAAAAAAAAAAAAAAEDAgQF/8QAHhEBAQEBAAMAAwEAAAAAAAAAAAECEQMxQRIhURP/2gAMAwEAAhEDEQA/APWIEvovmoEoFEgIAAAAAAAAAAAAAAgSgAAASgAABIAhIAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAVKAAShIAAgAAAAAAAAAAACABQAAAAABKAQAFAAEoSAAIAAAADKmHNp0rEz6Rq31yGJP7Yj1mE7Fktcw6p2fid0T8WjEwbV7VZj4cPmdhysAFQABAAoAAAAAAAIACgACUJAAEAAIjoscrs/rifx/tns7K6Rv2jjPLyh2stb+RrnH2orWIjSIiI7oSDNqEgDjzOQrbjT2Z7v2z/SrvWazMTGkx0egc2dy2/XWO1HLz8mmd/wBZ6x9inAaskAAAAAAAAACAAoAAlCQABBuyeFv4sR05z6Q0rDZNeN7e7DnV5HWZ2rEBg9AAAAAACo2lhbuLrHK3H49XKtNq1/1xPdb7qtvi9jDU5UAOnIAAAAAAAAAAAAlCQABBZ7J7F/ej7Kx3bKvpe1fFETHwc79O8e1mAwbgAAAAAOXaf6M+tVQstrX9mte+ZlWtsemG/aAHbkAAAAAAAEABQABKEgACDLCxJreLR0liCr/DvFqxaOUwyU+SzW5Ok8azz8vNb1tExrE6xPVhrPG+ddSA5dAABM6RrPKBV5/Ob3sU7PWfF/xZOuda4581jb+JNunKPRqBuwQAoAAAAAAACAAoAAlCQABAABtwMxak+zPDrE8pahFWuFtGs9qJrPzh0VzFJ5Xr84USHNxHc8lX841Y53r/AChoxc/SOU70+X9qdKf5wvkrfmM3a/Ds17o/LQDuTji3oAqIAFAAAAAAABAAUAAShIAAgN2Xy1sSeHCOtp5LPAydKdN6e+XN1I7mbVZhZS9uVdI754Q68PZniv8AKFgM7utJ445a7Pw46TPrLOMnh+CPq3jntdfjGn/Ew/BH1YWyGHPSY9Jl0h2n4xX4mzI/bf5xq5cXJ3rzrrHfHFdDqbrm4jzwusfKUvzjSfFHCVZmcranPjXxR+Wk1KzuLHOA6cgAAAAAAAgAKAAJQkB15LJ7/tW4V7utmORy2/bWezXn5+S4iO5nvXP1HeM9/dKxERpEaRHQBk2AAAAAAAACY1jSQBV57I7ut6cusdzhejVG0MruTvV7M9PDLXOvlZaz9jjAaMwAAAAAQAFAAGVKTa0VjnM6MVhsrC1tN56cI9Ut5Fk7Xfg4cUpFY6fXzZg870AAAAAAAAAAAAJY4lItWazymNJZAjz+PhTS81np9YYLPa2F7MXjpwn0VjfN7GGpygDpAAAAQAkUAAXeRpu4NfPjPxUkQ9FWNIiO6Ihn5GnjgAyagAAAAAAAAAAAJAEYY9N7DtXviXn3o3n8xXTEtHda33aeOs9sAGrMAAAEABQAGWF26+9X7vQvPYXbr71fu9Cy8jXxoAZtAAAAAAAAAAAAEgCCizv61/X8L1R579e/r+Gnj9uN+mgBqyAAABH/2Q=="
+            />
+            <div class="column-tool">
+              <p class="friend-main-brithday-sdm">한동영</p>
+            </div>
           </div>
         </div>
       </div>
@@ -98,6 +259,7 @@
         </li>
       </ul>
     </nav>
+    <div class="blankunder"></div>
   </body>
   <script
     src="https://kit.fontawesome.com/0bf2c1b99a.js"

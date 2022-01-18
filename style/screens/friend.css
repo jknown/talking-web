@@ -22,6 +22,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  margin-bottom: 10px;
 }
 
 .friend-header__title {
@@ -107,6 +108,7 @@
   display: flex;
   align-items: center;
   margin-top: 10px;
+  justify-content: space-between;
 }
 .friend-main-birthday {
   border-bottom: 1px solid #d5d7da;
@@ -124,4 +126,41 @@
   font-size: 10px;
   color: gray;
   margin-top: 5px;
+}
+.friend-main-birthday-box {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.friend-main-select-song {
+  font-size: 10px;
+  border: 1px solid lightgreen;
+  border-radius: 12px;
+  padding: 5px;
+}
+.friend-main-birthday-friends {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.headboxhelper {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: column;
+  top: 0;
+  box-sizing: border-box;
+  background-color: white;
+  border-bottom: 1px solid rgba(199, 199, 199, 0.3);
+}
+
+.blank {
+  width: 100%;
+  height: 80px;
+}
+
+.blankunder {
+  width: 100%;
+  height: 71px;
 }
