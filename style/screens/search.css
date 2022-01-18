@@ -123,3 +123,7 @@
   font-size: 1px;
   margin-top: 5px;
 }
+
+.open-chat-bot span {
+  color: magenta;
+}
