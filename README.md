@@ -1,8 +1,12 @@
+# [카카오톡 홈페이지 버전 제작]
+
 안녕하세요, 저는 개발자 이준영 입니다.
 이번에 저는 카카오톡을 홈페이지로 버전으로
 제작해보았습니다.
 
 ## [인트로 페이지]
+
+![인트로 페이지](https://github.com/jknown/talking-web/blob/master/screen_shot/chat.PNG?raw=true "인트로 페이지")
 
 ## [로그인 페이지]
 
