@@ -1,0 +1,88 @@
+.main-top-bar-icons-more {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.main-top-bar-icons-more i {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.main-top-bar-icons-more span {
+  font-size: 10px;
+}
+
+.more-profile-img {
+  width: 50px;
+  height: 50px;
+  border: solid 1px black;
+}
+
+.more-profile {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.more-profile-right {
+  font-size: 30px;
+}
+
+.more-profile-img-phone {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.more-profile-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-profile-phone-number {
+  font-size: 10px;
+  color: gray;
+  margin-top: 5px;
+}
+
+.suggestions-kakaoimg-main {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.suggestions-kakaoimg {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.suggestions-title {
+  padding: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.suggestions-kakaoimg-main-text {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 15px;
+}
+
+.suggestions {
+  display: flex;
+  flex-direction: row;
+}

@@ -8,6 +8,8 @@
 @import "screens/friend.css";
 @import "screens/chat.css";
 @import "screens/search.css";
+@import "screens/more.css";
+
 body {
   font-family: "Noto Sans KR", sans-serif;
 }
